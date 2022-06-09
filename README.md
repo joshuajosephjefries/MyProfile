@@ -1,6 +1,6 @@
 This repository contains my profile summary
 
-Template Name: Joseph
-Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+<br> Template Name: Joseph
+<br> Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+<br> Author: BootstrapMade.com
+<br> License: https://bootstrapmade.com/license/
