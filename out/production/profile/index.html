@@ -150,6 +150,26 @@
         <div class="section-title">
           <span>My Resume</span>
           <h2>My Resume</h2>
+          <a href="resume.pdf" download class="resume-btn">📄 Download My Resume</a>
+
+          <style>
+            .resume-btn {
+                display: inline-block;
+                padding: 12px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background-color: #007bff;
+                text-decoration: none;
+                border-radius: 8px;
+                transition: 0.3s ease-in-out;
+            }
+
+            .resume-btn:hover {
+                background-color: #0056b3;
+            }
+          </style>
+
         </div>
 
         <div class="row">
@@ -380,16 +400,6 @@
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-    <p>Visitor Count: <span id="visitorCount">Loading...</span></p>
-
-    <script>
-      fetch("/.netlify/functions/visitorCount")
-          .then(response => response.json())
-          .then(data => {
-              document.getElementById("visitorCount").textContent = data.count;
-          })
-          .catch(error => console.error("Error:", error));
-    </script>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
